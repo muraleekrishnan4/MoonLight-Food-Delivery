@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MoonLight</string>
+    <string name="profile_name">NAME</string>
+    <string name="profile_address">ADDRESS</string>
+    <string name="profile_number">NUMBER</string>
+    <string name="profile_email">E-MAIL</string>
+    <string name="profile_password">PASSWORD</string>
+    <string name="food_item_title">Title</string>
+    <string name="food_item_desc">Description</string>
+    <string name="signout">SIGN OUT</string>
+
+</resources>

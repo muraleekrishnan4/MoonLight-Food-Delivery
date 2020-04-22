@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "981132360035",
+    "firebase_url": "https://moonlight-a8844.firebaseio.com",
+    "project_id": "moonlight-a8844",
+    "storage_bucket": "moonlight-a8844.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981132360035:android:0b81aa5b9bcd7edc637b56",
+        "android_client_info": {
+          "package_name": "com.sigma.moonlight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981132360035-mbcmh3kdio3oeaie5l76hv5d3ik2fp55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkkPh6E_HTVhts12NkS6jTOhg1soICvOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981132360035-mbcmh3kdio3oeaie5l76hv5d3ik2fp55.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

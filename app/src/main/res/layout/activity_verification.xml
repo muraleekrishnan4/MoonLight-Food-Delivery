@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorControlHighlight"
+    android:elevation="0dp"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp">
+
+
+    <ImageView
+        android:id="@+id/iv_phone"
+        android:layout_width="120dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_phone_iphone_black_24dp" />
+
+    <ImageView
+        android:id="@+id/iv_message"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@id/iv_phone"
+        android:src="@drawable/ic_message_black_24dp" />
+
+    <TextView
+        android:id="@+id/txt_verification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_phone"
+        android:layout_marginTop="21dp"
+        android:text="Waiting to automatically detect an SMS sent to your mobile number"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:id="@+id/txt_mobilenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_verification"
+        android:layout_marginTop="21dp"
+        android:hint="Mobile Number"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TIL_verification"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_mobilenumber"
+        android:layout_marginTop="50dp"
+        app:boxStrokeErrorColor="@color/red">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TIET_verification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Verification Code"
+            android:inputType="phone"
+            android:maxLength="10"
+            app:startIconContentDescription="Verification Code" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btn_verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_blue_dark"
+        android:elevation="0dp"
+        android:text="VERIFY"
+        tools:background="@android:color/holo_blue_dark" />
+
+
+</RelativeLayout>
